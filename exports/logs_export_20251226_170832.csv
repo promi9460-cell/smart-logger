@@ -1,0 +1,15 @@
+timestamp,level,session,event,message
+"2025-12-26 17:02:20,571",WARNING,85202d89,LOG_CLEAR,User cleared the log file.
+"2025-12-26 17:02:25,581",INFO,85202d89,APP_EXIT,Application closed by user.
+"2025-12-26 17:05:11,399",INFO,e5268e71,AUTH_SUCCESS,PIN login success (attempt 1).
+"2025-12-26 17:05:11,469",INFO,e5268e71,APP_START,Application started. SESSION=e5268e71
+"2025-12-26 17:05:29,746",INFO,e5268e71,FILE_OPEN,Opened file: C:/Users/User/cg.txt
+"2025-12-26 17:06:40,494",INFO,e5268e71,FILE_SAVE,Saved file: C:/Users/User/cg.txt
+"2025-12-26 17:06:40,494",INFO,e5268e71,EDITOR_CLEARED_AFTER_SAVE,Editor cleared automatically after save.
+"2025-12-26 17:07:05,205",WARNING,e5268e71,ERROR_TEST,Forcing division by zero.
+"2025-12-26 17:07:05,206",ERROR,e5268e71,TRIGGERED_ERROR,division by zero
+,,,,Traceback (most recent call last):
+,,,,"  File ""D:\Projects\app.py"", line 659, in trigger_error"
+,,,,    _ = 10 / 0
+,,,,        ~~~^~~
+,,,,ZeroDivisionError: division by zero

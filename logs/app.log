@@ -1,0 +1,21 @@
+2025-12-26 17:16:33,587 | WARNING | SESSION=554d6bae | EVENT=LOG_CLEAR | User cleared the log file.
+2025-12-26 17:16:47,627 | INFO | SESSION=554d6bae | EVENT=APP_EXIT | Application closed by user.
+2025-12-26 17:19:25,566 | INFO | SESSION=e4c996d5 | EVENT=AUTH_SUCCESS | PIN login success (attempt 1).
+2025-12-26 17:19:25,634 | INFO | SESSION=e4c996d5 | EVENT=APP_START | Application started. SESSION=e4c996d5
+2025-12-26 17:19:40,027 | INFO | SESSION=e4c996d5 | EVENT=FILE_OPEN | Opened file: C:/Users/User/cg.txt
+2025-12-26 17:19:56,538 | INFO | SESSION=e4c996d5 | EVENT=FILE_SAVE | Saved file: C:/Users/User/cg.txt
+2025-12-26 17:19:56,539 | INFO | SESSION=e4c996d5 | EVENT=EDITOR_CLEARED_AFTER_SAVE | Editor cleared automatically after save.
+2025-12-26 17:20:36,418 | WARNING | SESSION=e4c996d5 | EVENT=ERROR_TEST | Forcing division by zero.
+2025-12-26 17:20:36,421 | ERROR | SESSION=e4c996d5 | EVENT=TRIGGERED_ERROR | division by zero
+Traceback (most recent call last):
+  File "D:\Projects\app.py", line 659, in trigger_error
+    _ = 10 / 0
+        ~~~^~~
+ZeroDivisionError: division by zero
+
+2025-12-26 17:22:58,421 | INFO | SESSION=e4c996d5 | EVENT=EXPORT_CSV | Exported CSV to: exports\logs_export_20251226_172258.csv
+2025-12-26 17:23:06,358 | INFO | SESSION=e4c996d5 | EVENT=EXPORT_PDF | Exported logs PDF to: exports\logs_export_20251226_172306.pdf
+2025-12-26 17:27:52,714 | INFO | SESSION=e4c996d5 | EVENT=OPEN_EXPORTS_FOLDER | Opened exports folder: D:\Projects\exports
+2025-12-26 17:28:47,768 | WARNING | SESSION=e4c996d5 | EVENT=LOCK_NOW | User locked the application manually.
+2025-12-26 17:28:56,961 | INFO | SESSION=e4c996d5 | EVENT=AUTH_SUCCESS | PIN login success (attempt 1).
+2025-12-26 17:28:56,984 | INFO | SESSION=e4c996d5 | EVENT=UNLOCK_SUCCESS | User unlocked the application.

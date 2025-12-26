@@ -1,0 +1,5 @@
+timestamp,level,session,event,message
+"2025-12-25 21:26:26,064",WARNING,4385f49d,LOG_CLEAR,User cleared the log file.
+"2025-12-25 21:27:00,951",WARNING,4385f49d,OPEN_CANCEL,User cancelled open.
+"2025-12-25 21:27:17,919",INFO,4385f49d,FILE_SAVE,Saved file: C:/Users/User/cg.txt
+"2025-12-25 21:27:17,919",INFO,4385f49d,EDITOR_CLEARED_AFTER_SAVE,Editor cleared automatically after save.

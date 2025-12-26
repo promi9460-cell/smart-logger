@@ -1,0 +1,3 @@
+timestamp,level,session,event,message
+"2025-12-26 16:41:49,763",WARNING,be3df152,LOG_CLEAR,User cleared the log file.
+"2025-12-26 16:42:36,785",INFO,be3df152,EXPORT_CSV,Exported CSV to: exports\logs_export_20251226_164236.csv

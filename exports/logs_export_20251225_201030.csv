@@ -1,0 +1,5 @@
+timestamp,level,session,event,message
+"2025-12-25 19:54:39,600",WARNING,022dede2,LOG_CLEAR,User cleared the log file.
+"2025-12-25 20:10:05,320",WARNING,0443cdb9,RECOVERY_IGNORED,User ignored recovery prompt.
+"2025-12-25 20:10:05,320",INFO,0443cdb9,APP_START,Application started. SESSION=0443cdb9
+"2025-12-25 20:10:23,364",INFO,0443cdb9,OPEN_EXPORTS_FOLDER,Opened exports folder: D:\Projects\exports
